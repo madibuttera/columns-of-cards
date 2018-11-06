@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: Open Sans, sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -18,7 +19,6 @@ html {
 }
 
 h2 {
-  background-color: #f2f2f2;
   padding: 1.5rem;
   text-align: center;
 }
@@ -29,16 +29,17 @@ h2 {
   padding: .4em .75em .3em;
   text-decoration: none;
   border-radius: 8px;
-  border: 3px solid #000;
+  border: 3px;
 }
 
 .btn:hover {
   background-color: #000;
-
 }
 
 .btn-small {
   font-size: .875rem;
+  background-color: #333;
+  color: #f2f2f2;
 }
 
 .quest {
@@ -55,4 +56,14 @@ h2 {
 
 .light {
   background-color: #999;
+}
+
+img {
+  width: 100px;
+  margin: 0 auto 1.5rem;
+}
+
+div {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
 }
