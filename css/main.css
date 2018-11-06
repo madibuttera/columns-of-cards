@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5;
 }
 
@@ -66,4 +66,8 @@ img {
 div {
   padding-top: .75rem;
   padding-bottom: .75rem;
+}
+
+.cards p {
+  flex-grow: 1;
 }
