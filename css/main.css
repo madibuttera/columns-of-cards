@@ -71,9 +71,10 @@ h2 {
 img {
   width: 100%;
   margin: 0 auto 1.5rem;
+  display: block;
 }
 
-.cards img{
+.cards img {
   width: 100px;
   margin: 0 auto;
   padding-bottom: .785rem;
