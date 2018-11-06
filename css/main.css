@@ -8,21 +8,28 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
 .cards {
   display: flex;
+  padding: 1.5;
 }
 
 .cards div {
   display: flex;
   flex-direction: column;
-  border: 1px solid #000;
+  border-left: 1px solid #333;
+  width: 25%;
+  padding: .75rem;
 }
 
 h2 {
-  padding: 1.5rem;
   text-align: center;
   font-size: 2rem;
-  margin: 0;
+  margin-bottom: 0;
 }
 
 .btn {
@@ -61,8 +68,14 @@ h2 {
 }
 
 img {
-  width: 100px;
+  width: 100%;
   margin: 0 auto 1.5rem;
+}
+
+.cards img{
+  width: 100px;
+  margin: 0 auto;
+  padding-bottom: .785rem;
 }
 
 div {
